@@ -1,11 +1,3 @@
-//
-//  ViewControllerHelper.swift
-//  habit
-//
-//  Created by WindyZYY on 2019/12/14.
-//  Copyright © 2019 ZYY.4.17.SE.SCUT. All rights reserved.
-//
-
 import UIKit
 import Foundation
 

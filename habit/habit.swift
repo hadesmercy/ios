@@ -1,10 +1,3 @@
-//
-//  habit.swift
-//  habit
-//
-//  Created by 魏一戈 on 2019/11/12.
-//  Copyright © 2019年 ScutSE-iOS-5. All rights reserved.
-//
 /*
  习惯类
  属性

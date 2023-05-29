@@ -1,11 +1,3 @@
-//
-//  myHabitsTableViewController.swift
-//  habit
-//
-//  Created by ZYY on 2019/12/14.
-//  Copyright © 2019 ZYY.4.17.SE.SCUT. All rights reserved.
-//
-
 import UIKit
 
 class myHabitTableViewController: myHabitViewController, UITableViewDelegate, UITableViewDataSource{

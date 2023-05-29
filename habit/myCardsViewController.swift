@@ -1,11 +1,3 @@
-//
-//  myCardsViewController.swift
-//  habit
-//
-//  Created by zhouyao on 2019/12/17.
-//  Copyright © 2019 ZYY.4.17.SE.SCUT. All rights reserved.
-//
-
 import UIKit
 
 class myCardsViewController: UIViewController{

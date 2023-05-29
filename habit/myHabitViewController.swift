@@ -1,11 +1,3 @@
-//
-//  habitsViewController.swift
-//  habit
-//
-//  Created by WindyZYY on 2019/11/26.
-//  Copyright © 2019 ZYY.4.17.SE.SCUT. All rights reserved.
-//
-
 import UIKit
 
 class myHabitViewController: UIViewController {

@@ -1,11 +1,5 @@
-//
-//  dateCheck.swift
-//  日期测试
-//
-//  Created by 魏一戈 on 2019/12/17.
-//  Copyright © 2019 魏一戈. All rights reserved.
-//
-//这个是和更新日期有关的类
+
+//和更新日期有关的类
 import Foundation
 
 class lastUpDateClass:NSObject, NSCoding{

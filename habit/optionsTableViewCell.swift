@@ -1,11 +1,3 @@
-//
-//  optionsTableViewCell.swift
-//  habit
-//
-//  Created by Apple on 2019/11/19.
-//  Copyright © 2019 ZYY.4.17.SE.SCUT. All rights reserved.
-//
-
 import UIKit
 
 class optionsTableViewCell: UITableViewCell {
