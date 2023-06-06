@@ -26,7 +26,7 @@ class SettingViewController: UIViewController {
                let timeTrigger = UNTimeIntervalNotificationTrigger.init(timeInterval: 0.5, repeats: false)
                // 2.创建通知内容
                let content = UNMutableNotificationContent.init()
-               content.body = "行百里者半九十，快来今天的打卡吧"
+               content.body = "BUPTER，快来完成今天的任务"
                content.badge = NSNumber(value:(UIApplication.shared.applicationIconBadgeNumber + 1))
             content.sound = UNNotificationSound.default
                let detail = "检查21天就能养成好习惯"
@@ -46,7 +46,7 @@ class SettingViewController: UIViewController {
            } else {
                
                let notification = UILocalNotification.init()
-               notification.alertBody = "行百里者半九十，快来今天的打卡吧"
+               notification.alertBody = "BUPTER，快来完成今天的任务"
                notification.applicationIconBadgeNumber = UIApplication.shared.applicationIconBadgeNumber + 1
                notification.soundName = UILocalNotificationDefaultSoundName
                let detail = "检查21天就能养成好习惯"

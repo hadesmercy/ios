@@ -3,12 +3,12 @@ import UIKit
 class myHabitTableViewController: myHabitViewController, UITableViewDelegate, UITableViewDataSource{
     var habitList : [Habit] = [Habit]()
     func initHabitList(){
-        habitList.append(Habit(name: "Brush teeth",img:UIImage(named: "1"),reminder: "每天都要刷牙哦"))
+        habitList.append(Habit(name: "Brush teeth",img:UIImage(named: "1"),reminder: "每天都要写代码"))
         habitList.append(Habit(name: "Memorize vocabularies",img:UIImage(named: "2"),reminder: "记的记单词"))
-        habitList.append(Habit(name: "Exercise for 1 hour",img:UIImage(named: "3"),reminder: "锻炼身体倍倍棒"))
-        habitList.append(Habit(name: "Take the medicine",img:UIImage(named: "4"),reminder: "出门记得吃药"
+        habitList.append(Habit(name: "Exercise for 1 hour",img:UIImage(named: "3"),reminder: "刷力扣"))
+        habitList.append(Habit(name: "Take the medicine",img:UIImage(named: "4"),reminder: "出门记得带电脑"
         ))
-        habitList.append(Habit(name: "Take a nap",img:UIImage(named: "5"),reminder: "祝你秀发长青"))
+        habitList.append(Habit(name: "Take a nap",img:UIImage(named: "5"),reminder: "祝你全AC"))
     }
     
     override func viewDidLoad() {

@@ -1,7 +1,6 @@
 import UIKit
 
-class allhabitsTableViewController:habitsViewController,UITableViewDataSource,UITableViewDelegate
-{
+class allhabitsTableViewController:habitsViewController,UITableViewDataSource,UITableViewDelegate{
     private var habitsCellID = "habitsCell"
     
     //var habitsList: [Habit] = [Habit]()
@@ -11,8 +10,8 @@ class allhabitsTableViewController:habitsViewController,UITableViewDataSource,UI
         if let abcd = loadFoodFile(){
             habitsList = abcd
         }else{
-             habitsList.append(Habit(name: "吃饭", img: UIImage (named:"1"), reminder:"饿了要吃饭"))
-             habitsList.append(Habit(name: "睡觉", img: UIImage (named:"2"), reminder:"困了要睡觉"))
+             habitsList.append(Habit(name: "学习物联网技术", img: UIImage (named:"1"), reminder:"本学期的最后一门课"))
+             habitsList.append(Habit(name: "学习移动互联网", img: UIImage (named:"2"), reminder:"本学期的最最后一门课"))
         }
             
         
